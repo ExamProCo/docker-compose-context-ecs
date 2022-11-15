@@ -1,5 +1,3 @@
-# hello.rb
-
 require 'sinatra'
 
 get '/' do
