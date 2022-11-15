@@ -1,7 +1,7 @@
 # Docker Compose Context ECS
 An example of how to quickly deploy docker containers to ECS
 
-## Configuration Credentials for AWS CLI
+## Configura
 
 To set env vars for the current active workspace
 ```
@@ -17,7 +17,7 @@ gp env AWS_SECRET_ACCESS_KEY=
 gp env AWS_DEFAULT_REGION=us-east-1
 ```
 
-## How to deploy docker compose with ECS
+## Deploy
 
 ```
 docker context create ecs myecscontext
@@ -30,3 +30,5 @@ docker-compose up
 ## References
 
 https://docs.docker.com/cloud/ecs-integration/
+https://github.com/docker/docs/issues/11949
+https://github.com/aws/amazon-ecs-cli

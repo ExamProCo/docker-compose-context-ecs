@@ -1,5 +1,7 @@
 tasks:
-
+  - name: amazon-ecs-cli
+    init: |
+      brew install amazon-ecs-cli
   - name: aws-cli
     env:
       AWS_CLI_AUTO_PROMPT: on-partial
